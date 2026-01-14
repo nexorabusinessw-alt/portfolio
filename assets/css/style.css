@@ -842,6 +842,8 @@ textarea:focus {
 .footer {
   padding: var(--spacing-4) 0;
   border-top: 1px solid var(--border);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .footer-content {
