@@ -49,6 +49,16 @@
   }
 }
 
+@keyframes gradientShift {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
+}
+
 @keyframes blink {
   0%,
   100% {
@@ -63,6 +73,7 @@
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
+  transition-delay: var(--delay, 0ms);
 }
 
 .reveal.show {

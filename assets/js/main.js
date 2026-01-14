@@ -27,7 +27,10 @@ const observer = new IntersectionObserver(
   { threshold: 0.2 }
 );
 
-revealElements.forEach((el) => observer.observe(el));
+revealElements.forEach((el, index) => {
+  el.style.setProperty("--delay", `${index * 80}ms`);
+  observer.observe(el);
+});
 
 const sectionObserver = new IntersectionObserver(
   (entries) => {

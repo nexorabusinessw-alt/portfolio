@@ -3,10 +3,10 @@ const projects = [
     title: "Student Performance Insights Dashboard",
     category: "Data",
     description:
-      "A dashboard concept that visualizes student trends, course engagement, and improvement opportunities for educators.",
-    technologies: ["Python", "Pandas", "Data Viz"],
+      "A premium dashboard concept visualizing student trends, engagement, and growth opportunities for educators.",
+    technologies: ["Python", "Pandas", "Storytelling"],
     highlights: [
-      "Interactive KPI cards for quick insights",
+      "Interactive KPI cards with spotlight metrics",
       "Trend analysis with filters by term",
       "Clean exports for academic reporting",
     ],
@@ -17,7 +17,7 @@ const projects = [
     category: "Systems",
     description:
       "A lightweight monitoring concept for tracking CPU, memory, and storage health across devices.",
-    technologies: ["C", "System Design", "Dashboards"],
+    technologies: ["C", "Systems", "Dashboards"],
     highlights: [
       "Real-time alerts for threshold changes",
       "Minimal overhead for everyday use",
@@ -29,7 +29,7 @@ const projects = [
     title: "Minimal UI Kit for Student Tools",
     category: "Design",
     description:
-      "A minimal, modern UI kit tailored to educational dashboards and student portals.",
+      "A minimal UI kit tailored to educational dashboards and student portals.",
     technologies: ["Figma", "UI Design", "Design Tokens"],
     highlights: [
       "Component library for rapid prototyping",

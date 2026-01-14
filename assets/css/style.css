@@ -110,6 +110,7 @@ h1 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: gradientShift 6s ease-in-out infinite;
 }
 
 h2 {
@@ -248,6 +249,12 @@ h3 {
 
 .hero-left h1 {
   font-size: clamp(3.2rem, 5vw, 5rem);
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin-bottom: var(--spacing-2);
 }
 
 .hero-line {
