@@ -101,6 +101,13 @@ h1 {
   margin-bottom: var(--spacing-2);
 }
 
+.accent-text {
+  background: linear-gradient(120deg, var(--accent), #7cf1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 h2 {
   font-size: clamp(2rem, 3vw, 2.8rem);
   margin-bottom: var(--spacing-2);
